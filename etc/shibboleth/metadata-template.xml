@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+
+  <md:SPSSODescriptor>
+
+    <md:Extensions>
+      <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+        <mdui:DisplayName xml:lang="en">Digital library Kramerius</mdui:DisplayName>
+        <mdui:DisplayName xml:lang="cs">Digitální knihovna Kramerius</mdui:DisplayName>
+        <mdui:Description xml:lang="en">Digital library Kramerius</mdui:Description>
+        <mdui:Description xml:lang="cs">Digitální knihovna Kramerius</mdui:Description>
+        <mdui:InformationURL xml:lang="en">https://kramerius.host/podminky-zpristupneni</mdui:InformationURL>
+        <mdui:InformationURL xml:lang="cs">https://kramerius.host/podminky-zpristupneni</mdui:InformationURL>
+        <mdui:Logo height="128" width="128">https://example.org/logo</mdui:Logo>
+      </mdui:UIInfo>
+    </md:Extensions>
+
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">Digital library Kramerius</md:ServiceName>
+      <md:ServiceName xml:lang="cs">Digitální knihovna Kramerius</md:ServiceName>
+      <md:ServiceDescription xml:lang="en">Digital library Kramerius</md:ServiceDescription>
+      <md:ServiceDescription xml:lang="cs">Digitální knihovna Kramerius</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="eppn" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.6" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+      <md:RequestedAttribute FriendlyName="eduPersonUnscopedAffiliation" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.9" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+    </md:AttributeConsumingService>
+
+  </md:SPSSODescriptor>
+
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Example organization</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Ukázková organizace</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Example organization</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Ukázková organizace</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.example.org/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://www.example.org/en</md:OrganizationURL>
+  </md:Organization>
+
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Jan</md:GivenName>
+    <md:SurName>Novák</md:SurName>
+    <md:EmailAddress>mailto:jan.novak@example.org</md:EmailAddress>
+  </md:ContactPerson>
+
+</md:EntityDescriptor>
