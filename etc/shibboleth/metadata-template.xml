@@ -21,7 +21,7 @@
       <md:ServiceDescription xml:lang="en">Digital library Kramerius</md:ServiceDescription>
       <md:ServiceDescription xml:lang="cs">Digitální knihovna Kramerius</md:ServiceDescription>
       <md:RequestedAttribute FriendlyName="eppn" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.6" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
-      <md:RequestedAttribute FriendlyName="eduPersonUnscopedAffiliation" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.9" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+      <md:RequestedAttribute FriendlyName="eduPersonScopedAffiliation" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.9" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
     </md:AttributeConsumingService>
 
   </md:SPSSODescriptor>
